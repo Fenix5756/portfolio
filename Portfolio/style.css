@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+  background: #0f172a;
+  color: #f1f5f9;
+  line-height: 1.6;
+  font-family:'Poppins';
+}
+
+header{
+    text-align: center;
+    padding: 100px 20px;
+}
+.name{
+    font-size:50px;
+    color:rgb(232, 219, 219)
+}
+.dev{
+    font-size:26px;
+}
+.btn {
+  background: #1b6cee;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top:20px;
+}
+
+.aboutme{
+    display: flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+.abtme{
+    width: 220px;
+    margin:20px;
+    margin-top:-20px;
+    height:max-content;
+    background: #143a77;
+    border-radius:30px;
+    flex:1;
+    padding:20px;
+    font-family:'Poppins';
+}
+li{
+  list-style-type: disc;
+  margin-left:20px
+}
+p{
+    margin-left:7px;
+}
+.altel{
+    color:aliceblue;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.altel:hover{
+    cursor:pointer;
+    color:rgb(44, 202, 202)
+}
+.alteimage{
+    height: 260px;
+    width: 290px;
+    margin-top:10px;
+    border-radius: 20px;
+}
+.flag{
+    width:270px;
+    height: 150px;
+    border-radius:30px;
+    margin-top:20px;
+    margin-left:15px;
+}
+.herb{
+    width:270px;
+    height: 150px;
+    margin-top:20px;
+    margin-left:15px;
+}
+.front{
+    width:270px;
+    height: 130px;
+    margin-top:20px;
+    margin-left:15px;
+    border-radius:20px;
+}
+.frontend{
+    width:270px;
+    height: 130px;
+    margin-top:10px;
+    margin-left:15px;
+    border-radius:20px;
+}
+.skills-grid{
+    margin-top:10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap:20px;
+    text-align: center;
+}
+.seqc {
+  padding: 80px 20px;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.skill{
+    background-color: #1e293b;
+    padding:20px;
+    text-align: 20px;
+    border-radius:20px;
+}
+.projects{
+    margin-left:20px;
+    margin-top:-20px;
+}
+.project-card {
+  background: #1e293b;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  width: 97%;
+  margin-left:20px;
+  border-radius:20px
+}
+#contact{
+    margin-right:20px
+}
+.altel11{
+  margin-right: 15px;
+  width:95%;
+  color: #3b82f6;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  color:#94a3b8;
+}
+.javascr{
+    margin-left:-1px;
+}
+.cont{
+    margin-left:20px;
+    margin-top:20px;
+}
+.ppp{
+    margin-left:20px;
+}
+
+
+@media (max-width: 768px) {
+
+  header h1 {
+    font-size: 32px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
+
+  .project-card {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+}
