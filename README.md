@@ -3,7 +3,7 @@
 Personal portfolio website built with HTML and CSS.
 
 ## 🔥 Live Demo
-https://fenix5756.github.io/portfolio/
+https://fenix5756.github.io/Portfolio/
 
 ## 🛠 Technologies
 - HTML5
