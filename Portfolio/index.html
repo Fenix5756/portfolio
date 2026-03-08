@@ -6,7 +6,7 @@
     <title>Nikoloz Kononov | Frontend Developer</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
+    </head>
 <body>
     <header>
         <h1 class="name">Nikoloz Kononov</h1>
@@ -16,7 +16,7 @@
     <section id="about">    
 
         <div class="aboutme">
-        <div class="abtme">
+        <div class="abtme1">
             <h3>💼About me</h3>
             <p>
                 I am a passionate Frontend Developer based in Rustavi, Georgia.
@@ -31,7 +31,7 @@
                 I am currently studying at Alte University in Tbilisi, Georgia, where I am developing strong foundations in technology, analytical thinking and problem-solving.
             </p>
             <p>University website:<a href="https://alte.edu.ge/" class="altel"> https://alte.edu.ge/</a></p>
-            <img src="images\alte.png" alt="alte" class="alteimage">
+            <a href="https://alte.edu.ge/" target="_blank"><img src="images\alte.png" alt="alte" class="alteimage"></a>
         </div>
         <div class="abtme">
             <h3>🌍 Languages</h3>
@@ -39,8 +39,8 @@
                 <li>Georgian — Native</li>
                 <li>Russian — Native </li> 
                 <li>English — Intermediate (technical communication)</li>
-                <img src="images\geoflag.png" alt="geo" class="flag">
-                <img src="images\geoherb.png" alt="geoh" class="herb">
+                <a href="https://en.wikipedia.org/wiki/Georgia_(country)" target="_blank"><img src="images\geoflag.png" alt="geo" class="flag"></a>
+                <a href="https://en.wikipedia.org/wiki/Georgia_(country)" target="_blank"><img src="images\geoherb.png" alt="geoh" class="herb"></a>
             </ul>
         </div>
         <div class="abtme">
@@ -59,13 +59,48 @@
         </div>
     </section>
     <section id="skills" class="seqc">
-        <h2>Skills</h2>
+        <h2 class = "sk">Skills</h2>
         <div class="skills-grid">
-            <div class="skill">HTML5</div>
-            <div class="skill">CSS3</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">Responsive Design</div>
-            <div class="skill">Git & GitHub</div>
+            <button class="skill">HTML5</button>
+            <div class = "skillWindow">
+                <div class="skillWindow-content">
+                    <h3>HTML5</h3>
+                    <p>HTML (HyperText Markup Language) is the standard language used to create web pages. It structures content using elements like headings, paragraphs, images, and links. HTML uses tags to organize and display information in a browser. It works together with CSS for styling and JavaScript for interactivity. HTML is the basic foundation of every website.</p>
+                    <button class="closeBtn">Close</button>
+                </div>
+            </div>
+            <button class="skill">CSS3</button>
+            <div class ="skillWindow">
+                <div class="skillWindow-content">
+                    <h3>CSS3</h3>
+                    <p>CSS is a style sheet language used to design and style web pages. CSS3 is the modern version of CSS that adds advanced features like animations, transitions, gradients, and flexible layouts. It controls colors, fonts, spacing, and positioning of elements on a webpage. CSS3 works together with HTML to create visually appealing websites. It helps developers make responsive and attractive user interfaces.</p>
+                    <button class="closeBtn">Close</button>
+                 </div>
+            </div>
+            <button class="skill">JavaScript</button>
+            <div class ="skillWindow">
+                <div class="skillWindow-content">
+                    <h3>JavaScript</h3>
+                    <p>JavaScript is a programming language used to make web pages interactive. It allows developers to add dynamic features like buttons, forms, animations, and pop-up windows. JavaScript works together with HTML and CSS to build modern websites. It can respond to user actions such as clicks, typing, or scrolling. JavaScript is one of the most important languages in web development.</p>
+                    <button class="closeBtn">Close</button>
+                </div>
+            </div>
+            <button class="skill">UI/UX</button>
+            <div class ="skillWindow">
+                <div class="skillWindow-content">
+                    <h3>UI/UX</h3>
+                    <p>UI/UX Design refers to the design of a product’s interface and user experience. UI (User Interface) focuses on the visual elements of a website or app, such as buttons, colors, and layouts. UX (User Experience) focuses on how easy and comfortable it is for users to interact with the product. Good UI/UX design helps users navigate a website smoothly and find information quickly. It is important for creating attractive and user-friendly digital products.</p>
+                    <button class="closeBtn">Close</button>
+                </div>
+            </div>
+            <button class="skill">Git & GitHub</button>
+            <div class = "skillWindow">
+                <div class="skillWindow-content">
+                    <h3>Git & Github</h3>
+                    <p>Git is a version control system used to track changes in code during development. It allows developers to save different versions of a project and collaborate with others. GitHub is an online platform that hosts Git repositories and helps developers share and manage their code. Developers use Git to commit and track changes, and GitHub to store and collaborate on projects. Together, they are essential tools for modern software development.</p>
+                    <button class="closeBtn">Close</button>
+                </div>
+            </div>
         </div>
   </section>
    <section id="projects">
@@ -74,15 +109,15 @@
     <div class="project-card">
       <h3>Landing Page</h3>
       <p class="javascr">Responsive landing page with modern layout.</p>
-      <a href="#" class="altel11">Live Demo</a>
-      <a href="#" class="altel11">GitHub</a>
+      <a href="#" class="altel11" target="_blank" >Live Demo</a>
+      <a href="https://github.com/fenix5756" class="altel11" target="_blank">GitHub</a>
     </div>
 
     <div class="project-card">
       <h3>Todo App</h3>
       <p class="javascr">JavaScript application with local storage.</p>
-      <a href="#" class="altel11">Live Demo</a>
-      <a href="#" class="altel11">GitHub</a>
+      <a href="#" class="altel11" target="_blank">Live Demo</a>
+      <a href="https://github.com/fenix5756" class="altel11" target="_blank">GitHub</a>
     </div>
 
   </section>
@@ -90,12 +125,12 @@
   <section id="contact">
     <h2 class = "cont">Contact</h2>
     <p class = "ppp">Email: ns4844752@email.com</p>
-    <p class = "ppp">GitHub: github.com/fenix5756</p>
+    <p class = "ppp">GitHub: <a href="https://github.com/fenix5756" target="_blank" class="githublink">github.com/fenix5756</a></p>
   </section>
 
   <footer>
     <p>© 2026 Nikoloz Kononov</p>
   </footer>
+  <script src="script.js"></script>
 </body>
-
 </html>
